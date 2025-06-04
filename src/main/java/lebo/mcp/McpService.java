@@ -224,7 +224,10 @@ public class McpService {
 
         return tokenResult.data();
     }
-
+    
+    /**
+     * mcp tools 测试
+     */
     public static void main(String[] args) {
         McpService mcpService = new McpService();
         try {
